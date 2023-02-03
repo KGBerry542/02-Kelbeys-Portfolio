@@ -57,3 +57,14 @@ nav ul {
   align-items: stretch;
   justify-content: space-between;
 }
+
+.contactMe {
+  margin: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
