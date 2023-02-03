@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2%;
+  padding: 1.5%;
   background-color: rgb(58, 58, 78);
   color: rgb(160, 252, 252);
 }
@@ -19,7 +19,26 @@ h1 {
 nav ul {
   display: flex;
   justify-content: space-between;
-  min-width: 400px;
+  min-width: 450px;
   margin-right: 35px;
-  font-size: 20px;
+  font-size: 150%;
+}
+
+.mountains {
+  height: 225px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-image: url("../images/mountains.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.subtitle {
+  font-size: 200%;
+  color:  rgb(58, 58, 78);
+  background-color: rgb(160, 252, 252);
+  position: relative;
+  left: 1400px;
+  bottom: 120px;
+
 }
