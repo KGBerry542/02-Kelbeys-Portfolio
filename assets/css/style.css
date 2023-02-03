@@ -16,6 +16,10 @@ h1 {
   padding-left: 50px;  
 }
 
+h3, h4, h5 {
+  font-size: 300%;
+}
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -25,20 +29,31 @@ nav ul {
 }
 
 .mountains {
+  position: relative;
+  display: inline-block;
   height: 225px;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 0;
   background-image: url("../images/mountains.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.subtitle {
-  font-size: 200%;
-  color:  rgb(58, 58, 78);
-  background-color: rgb(160, 252, 252);
+.subtitle h2 {
   position: relative;
   left: 1400px;
-  bottom: 120px;
+  bottom: 70px;
+  font-size: 200%;
+  background-color: rgb(160, 252, 252);
+  color:  rgb(58, 58, 78);
+}
 
+.aboutMe {
+  margin: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
 }
