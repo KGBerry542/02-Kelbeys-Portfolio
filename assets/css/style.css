@@ -68,3 +68,7 @@ nav ul {
   justify-content: space-between;
 }
 
+.divider {
+  width: 2px;
+  background: rgb(58, 58, 78);
+}
