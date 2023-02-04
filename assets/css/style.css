@@ -20,7 +20,7 @@ h3, h4, h5 {
   font-size: 300%;
 }
 
-nav ul {
+.pageNavigator ul {
   display: flex;
   justify-content: space-between;
   min-width: 450px;
@@ -55,17 +55,23 @@ nav ul {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .contactMe {
   margin: 25px;
   padding: 10px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.contactResources ul li {
+  display: inline;
+  justify-content: space-evenly;
+  padding: 96px;
+  margin-top: 55px;
+  font-size: 20px;
+   
 }
 
 .divider {
