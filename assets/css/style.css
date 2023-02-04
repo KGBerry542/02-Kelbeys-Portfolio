@@ -20,6 +20,16 @@ h3, h4, h5 {
   font-size: 300%;
 }
 
+h4 {
+  margin: 25px;
+  padding: 15px;
+  margin-left: 220px;
+}
+
+.contactResources li {
+  color: rgb(58, 58, 78);
+}
+
 .pageNavigator ul {
   display: flex;
   justify-content: space-between;
@@ -33,7 +43,6 @@ h3, h4, h5 {
   display: inline-block;
   height: 225px;
   width: 100%;
-  margin-bottom: 0;
   background-image: url("../images/mountains.jpg");
   background-size: cover;
   background-position: center;
@@ -41,7 +50,7 @@ h3, h4, h5 {
 
 .subtitle h2 {
   position: relative;
-  left: 1400px;
+  left: 1600px;
   bottom: 70px;
   font-size: 200%;
   background-color: rgb(160, 252, 252);
@@ -57,6 +66,21 @@ h3, h4, h5 {
   align-items: stretch;
   justify-content: space-evenly;
 }
+
+.work {
+  margin: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  margin: 25px;
+  padding: 10px;
+  margin-left: 100px;
+}
+
+
 
 .contactMe {
   margin: 25px;
@@ -75,6 +99,11 @@ h3, h4, h5 {
 }
 
 .divider {
-  width: 2px;
+  width: 4px;
+  background: rgb(58, 58, 78);
+}
+
+.dividerWork {
+  width: 10px;
   background: rgb(58, 58, 78);
 }
