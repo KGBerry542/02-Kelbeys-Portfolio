@@ -49,6 +49,8 @@ h4 {
 }
 
 .subtitle h2 {
+  display: inline-block;
+  width: 200%;
   position: relative;
   left: 1600px;
   bottom: 70px;
@@ -80,7 +82,11 @@ h4 {
   margin-left: 100px;
 }
 
-
+h6 {
+  display: inline-block;
+  width: auto;
+  background-color: rgb(160, 252, 252);
+}
 
 .contactMe {
   margin: 25px;
