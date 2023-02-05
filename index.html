@@ -12,7 +12,7 @@
         <h1>Kelbey's Portfolio</h1>
         <nav class="pageNavigator">
             <ul>
-                <li><a href="#aboutME" style="color: rgb(160, 252, 252);">About Me</a></li>
+                <li><a href="#aboutMe" style="color: rgb(160, 252, 252);">About Me</a></li>
                 <li><a href="#work" style="color: rgb(160, 252, 252);">Work</a></li>
                 <li><a href="#contactMe" style= "color: rgb(160, 252, 252);">Contact Me</a></li>
                 <li><a href="#" style="color: rgb(160, 252, 252);">Resume</a></li>
@@ -29,20 +29,20 @@
 
     <main>
         <section>
-            <article class="aboutMe">
+            <article id="aboutMe" class="aboutMe">
                 <h3>About Me</h3>
                 <div class="divider"></div>
                 <p class="bio">Hello there, my name is Kelbey Berry. I am currently a student at The Ohio State University Boot Camp. I am attending this boot camp to specialize in full stack web development. </p>
             </article>
-            <article class="work">
+            <article id="work" class="work">
                 <h4>Work</h4>
                 <div class="dividerWork"></div>
                     <div class="container">
-                    <img id="workIMG" src="./assets/images/surfReport.jpg"/>                   
-                    <img id="workIMG" src="./assets/images/ledWall.jpg" style="width: 502px; height: 150px; object-fit: cover;"/>                                       
-                    <img id="workIMG" src="./assets/images/calculator.jpg" style="width: 502px; height: 150px; object-fit: cover;"/>                                   
-                    <img id="workIMG" src="./assets/images/pastelPuzzles.jpg" style="width: 502px; height: 150px; object-fit: cover;"/>
-                    <img id="workIMG" src="./assets/images/runBuddy.png" style="width: 502px; height: 150px; object-fit: cover;"/>
+                    <a href="https://kgberry542.github.io/01-Semantic-Challenge/"><img id="workIMG" class="surfIMG" src="./assets/images/surfReport.jpg"/></a>                   
+                    <img id="workIMG" class="ledIMG" src="./assets/images/ledWall.jpg" style="width: 502px; height: 150px; object-fit: cover;"/>                                       
+                    <img id="workIMG" class="jsIMG" src="./assets/images/calculator.jpg" style="width: 502px; height: 150px; object-fit: cover;"/>                                   
+                    <img id="workIMG" class="pastelIMG" src="./assets/images/pastelPuzzles.jpg" style="width: 502px; height: 150px; object-fit: cover;"/>
+                    <img id="workIMG" class="runIMG" src="./assets/images/runBuddy.png" style="width: 502px; height: 150px; object-fit: cover;"/>
                     <h6 class="runSubtitle">Run Buddy<p class="workInfo">HTML/CSS</p></h6>
                     <h6 class="surfSubtitle">Surf Report<p class="workInfo">MERN Stack</p></h6>
                     <h6 class="pastelSubtitle">Pastel Puzzles<p class="workInfo">MERN Stack</p></h6>
@@ -50,7 +50,7 @@
                     <h6 class="ledSubtitle">LED Wall<p class="workInfo">Node/IoT</p></h6>
                 </div>
             </article>
-            <article class="contactMe">
+            <article id="contactMe" class="contactMe">
                 <h5>Contact Me</h5>
                 <div class="divider"></div>
                 <nav class="contactResources">

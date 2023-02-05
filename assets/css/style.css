@@ -124,7 +124,7 @@ h6 {
 
 .jsSubtitle {
   position: relative;
-  left: 505px;
+  left: 512px;
   bottom: 417px;
 }
 
@@ -136,16 +136,15 @@ h6 {
 
 .runSubtitle {
   position: relative;
-  left: 505px;
+  left: 512px;
   bottom: 89px;
 }
-
-
 
 .contactMe {
   margin: 25px;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -155,7 +154,6 @@ h6 {
   padding: 96px;
   margin-top: 55px;
   font-size: 20px;
-   
 }
 
 .divider {
@@ -167,4 +165,3 @@ h6 {
   width: 4px;
   background: rgb(58, 58, 78);
 }
-
