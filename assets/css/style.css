@@ -65,7 +65,7 @@ h6 {
 }
 
 .work-info {
-  font-size: 5rem;
+  font-size: 1rem;
 }
 
 #work-img {
@@ -199,34 +199,73 @@ h6 {
 
 
 .surf-subtitle {
-  position: relative;
-  left: 5rem;
-  bottom: 5rem;
-  ;
+  position: absolute;
+  top: 145%;
+  left: 19%;
+  transform: translate(-25%, -50%);
+  text-align: center;
+  background-color: rgb(160, 252, 252);
+  color: rgb(58, 58, 78);
+  padding: .25rem;
+  font-weight: bold;
+  font-size: 3rem;
+  width: 20%;
 }
 
 .led-subtitle {
-  position: relative;
-  left: 5rem;
-  bottom: 4rem;
+  position: absolute;
+  top: 175%;
+  left: 18%;
+  transform: translate(-25%, -50%);
+  text-align: center;
+  background-color: rgb(160, 252, 252);
+  color: rgb(58, 58, 78);
+  padding: .25rem;
+  font-weight: bold;
+  font-size: 3rem;
+  width: 20%;
 }
 
 .js-subtitle {
-  position: relative;
-  left: 5rem;
-  bottom: 4rem;
+  position: absolute;
+  top: 175%;
+  right: 30%;
+  transform: translate(-25%, -50%);
+  text-align: center;
+  background-color: rgb(160, 252, 252);
+  color: rgb(58, 58, 78);
+  padding: .25rem;
+  font-weight: bold;
+  font-size: 3rem;
+  width: 20%;
 }
 
 .pastel-subtitle {
-  position: relative;
-  left: 5rem;
-  bottom: 2rem;
+  position: absolute;
+  top: 195%;
+  left: 20%;
+  transform: translate(-25%, -50%);
+  text-align: center;
+  background-color: rgb(160, 252, 252);
+  color: rgb(58, 58, 78);
+  padding: .25rem;
+  font-weight: bold;
+  font-size: 3rem;
+  width: 20%;
 }
 
 .run-subtitle {
-  position: relative;
-  left: 5rem;
-  bottom: 8rem;
+  position: absolute;
+  top: 195%;
+  right: 29.2%;
+  transform: translate(-25%, -50%);
+  text-align: center;
+  background-color: rgb(160, 252, 252);
+  color: rgb(58, 58, 78);
+  padding: .25rem;
+  font-weight: bold;
+  font-size: 3rem;
+  width: 20%;
 }
 
 .contact-me {
@@ -263,6 +302,78 @@ h6 {
 
 .led-img:hover {
   background-image: "./assets./images/ledWall2.jpg";
+}
+
+@media screen and (max-width: 1874px) {
+  .surf-subtitle {
+    position: absolute;
+    top: 145%;
+    left: 19%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+  
+  .led-subtitle {
+    position: absolute;
+    top: 175%;
+    left: 18%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+  
+  .js-subtitle {
+    position: absolute;
+    top: 175%;
+    right: 30%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+  
+  .pastel-subtitle {
+    position: absolute;
+    top: 195%;
+    left: 20%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+  
+  .run-subtitle {
+    position: absolute;
+    top: 195%;
+    right: 29.2%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
 }
 
 @media screen and (max-width: 1530px) {
