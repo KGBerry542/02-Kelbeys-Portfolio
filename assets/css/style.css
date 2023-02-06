@@ -6,33 +6,56 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   padding: 1.5%;
   background-color: rgb(58, 58, 78);
+  color: rgb(160, 252, 252);
+  padding-left: 0;
+}
+
+.page-navigator {
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+  padding-top: 2rem;
+
+}
+
+.header-links {
   color: rgb(160, 252, 252);
 }
 
 h1 {
-  position: relative;
-  right: 35px;
-  font-size: 300%;
+  display: inline-block;
+  font-size: 4rem;
   color: rgb(58, 58, 78);
   background-color: rgb(160, 252, 252);
-  padding-left: 50px;  
+  padding: 1rem;
+  padding-left: 5rem;
 }
 
-h3, h4, h5 {
-  font-size: 300%;
+h4,
+h5 {
+  font-size: 100%;
   color: rgb(58, 58, 78);
+}
+
+.me {
+  display: inline;
+  max-width: 20%;
+  border-radius: 50%;
 }
 
 .bio {
-  width: auto;
+  display: inline;
+  width: 5rem;
+  word-wrap: break-word;
 }
 
 h4 {
-  margin: 25px;
-  padding: 15px;
-  margin-left: 220px;
+  margin: 5rem;
+  padding: 5rem;
+  margin-left: 5rem;
 }
 
 h6 {
@@ -42,62 +65,107 @@ h6 {
   color: rgb(58, 58, 78);
 }
 
-.workInfo {
-  font-size: 18px;
+.work-info {
+  font-size: 5rem;
 }
 
-#workIMG {
+#work-img {
   border-style: solid;
-  border-width: 5px;
+  border-width: .5rem;
   border-color: rgb(160, 252, 252);
+  margin: .75rem;
 }
 
-.contactResources li {
+.contact-resources li {
   color: rgb(58, 58, 78);
 }
 
-.pageNavigator ul {
+.page-navigator ul {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  min-width: 450px;
-  margin-right: 35px;
+  min-width: 5rem;
   font-size: 150%;
 }
 
+.page-navigator ul li {
+  padding-left: 1rem;
+}
+
+#image-subtitle {
+  width: 100%;
+  min-height: 200px;
+}
+
 .mountains {
+  display: block;
+  width: 100%;
+}
+
+.thumbnail {
   position: relative;
   display: inline-block;
-  height: 225px;
+}
+
+.subtitle {
+  position: absolute;
+  top: 60%;
+  left: 80%;
+  transform: translate(-25%, -50%);
+  text-align: center;
+  background-color: rgb(160, 252, 252);
+  color: rgb(58, 58, 78);
+  padding: .25rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#image-subtitle .thumbnail .subtitle h2 {
+  font-size: 3rem;
+  width: 25rem;
+}
+
+/* .mountains {
+  position: relative;
+  display: inline-block;
+  height: 17rem;
   width: 100%;
   background-image: url("../images/mountains.jpg");
   background-size: cover;
   background-position: center;
-}
+} */
 
-.subtitle h2 {
-  display: inline-block;
-  width: 302px;
-  position: relative;
-  left: 1600px;
-  bottom: 70px;
+/* .subtitle h2 {
+  position: absolute;
+  left: 108rem;
+  bottom: 5rem;
+  width: 19rem;
   font-size: 200%;
   background-color: rgb(160, 252, 252);
   color:  rgb(58, 58, 78);
-}
+  padding:.5rem;
+} */
 
-.aboutMe {
-  margin: 25px;
-  padding: 10px;
+/* #region ABOUT ME */
+.about-me {
+  margin: 1rem;
+  padding: 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
 }
 
+.about-me h3 {
+  font-size: 3rem;
+}
+
+/* #endregion ABOUT ME */
+
 .work {
-  margin: 25px;
-  padding: 10px;
+  margin: 2rem;
+  padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -105,63 +173,126 @@ h6 {
 
 .container {
   flex: 1 0 0;
-  margin: 20px;
-  padding: 10px;
-  margin-left: 100px;
+  margin: 2rem;
+  padding: 1rem;
+  margin-left: 1rem;
 }
 
-.surfSubtitle {
+
+
+.surf-subtitle {
   position: relative;
-  left: 5px;
-  bottom: 500px;;
+  left: 5rem;
+  bottom: 5rem;
+  ;
 }
 
-.ledSubtitle {
+.led-subtitle {
   position: relative;
-  left: 5px;
-  bottom: 475px;
+  left: 5rem;
+  bottom: 4rem;
 }
 
-.jsSubtitle {
+.js-subtitle {
   position: relative;
-  left: 512px;
-  bottom: 417px;
+  left: 5rem;
+  bottom: 4rem;
 }
 
-.pastelSubtitle {
+.pastel-subtitle {
   position: relative;
-  left: 5px;
-  bottom: 205px;
+  left: 5rem;
+  bottom: 2rem;
 }
 
-.runSubtitle {
+.run-subtitle {
   position: relative;
-  left: 512px;
-  bottom: 89px;
+  left: 5rem;
+  bottom: 8rem;
 }
 
-.contactMe {
-  margin: 25px;
-  padding: 10px;
+.contact-me {
+  margin: 2rem;
+  padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.contactResources ul li {
+.contact-resources ul li {
   display: inline;
   justify-content: space-evenly;
-  padding: 96px;
-  margin-top: 55px;
-  font-size: 20px;
+  padding: 9rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+  color: rgb(58, 58, 78);
 }
 
 .divider {
-  width: 4px;
+  width: 1rem;
   background: rgb(58, 58, 78);
 }
 
-.dividerWork {
-  width: 4px;
+/* .divider-work {
+  width: 1rem;
   background: rgb(58, 58, 78);
+} */
+
+.led-img:hover {
+  background-image: "./assets./images/ledWall2.jpg";
+}
+
+@media screen and (max-width: 1530px) {
+  .subtitle {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 1126px) {
+  .subtitle {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  /* Change the header color */
+  header {
+    display: inline-block;
+  }
+
+}
+
+@media screen and (max-width: 768rem) {
+  .subtitle {
+    font-size: .75rem;
+  }
+
+  header {
+    display: inline-block;
+  }
+
+  .header-links {
+    font-size: 2rem;
+  }
+
+
+
+
 }

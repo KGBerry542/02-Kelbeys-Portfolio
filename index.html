@@ -8,62 +8,77 @@
 </head>
 
 <body>
-    <header>
-        <h1>Kelbey's Portfolio</h1>
-        <nav class="pageNavigator">
-            <ul>
-                <li><a href="#aboutMe" style="color: rgb(160, 252, 252);">About Me</a></li>
-                <li><a href="#work" style="color: rgb(160, 252, 252);">Work</a></li>
-                <li><a href="#contactMe" style= "color: rgb(160, 252, 252);">Contact Me</a></li>
-                <li><a href="#" style="color: rgb(160, 252, 252);">Resume</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div>
+        <header>
+            <h1>Kelbey's Portfolio</h1>
+            <nav class="page-navigator">
+                <ul>
+                    <li><a href="#about-me" class="header-links">About Me</a></li>
+                    <li><a href="#work" class="header-links">Work</a></li>
+                    <li><a href="#contact-me" class="header-links">Contact Me</a></li>
+                    <li><a href="#" class="header-links">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <div class="imageSubtitle">
-        <img class="mountains"></img>
-        <div class="subtitle">
-            <h2>Lets Get Coding!</h2>
-        </div>
-    </div>    
-
-    <main>
-        <section>
-            <article id="aboutMe" class="aboutMe">
-                <h3>About Me</h3>
-                <div class="divider"></div>
-                <p class="bio">Hello there, my name is Kelbey Berry. I am currently a student at The Ohio State University Boot Camp. I am attending this boot camp to specialize in full stack web development. </p>
-            </article>
-            <article id="work" class="work">
-                <h4>Work</h4>
-                <div class="dividerWork"></div>
-                    <div class="container">
-                    <a href="https://kgberry542.github.io/01-Semantic-Challenge/"><img id="workIMG" class="surfIMG" src="./assets/images/surfReport.jpg"/></a>                   
-                    <img id="workIMG" class="ledIMG" src="./assets/images/ledWall.jpg" style="width: 502px; height: 150px; object-fit: cover;"/>                                       
-                    <img id="workIMG" class="jsIMG" src="./assets/images/calculator.jpg" style="width: 502px; height: 150px; object-fit: cover;"/>                                   
-                    <img id="workIMG" class="pastelIMG" src="./assets/images/pastelPuzzles.jpg" style="width: 502px; height: 150px; object-fit: cover;"/>
-                    <img id="workIMG" class="runIMG" src="./assets/images/runBuddy.png" style="width: 502px; height: 150px; object-fit: cover;"/>
-                    <h6 class="runSubtitle">Run Buddy<p class="workInfo">HTML/CSS</p></h6>
-                    <h6 class="surfSubtitle">Surf Report<p class="workInfo">MERN Stack</p></h6>
-                    <h6 class="pastelSubtitle">Pastel Puzzles<p class="workInfo">MERN Stack</p></h6>
-                    <h6 class="jsSubtitle">Calculator<p class="workInfo">React/JavaScript/CSS</p></h6>
-                    <h6 class="ledSubtitle">LED Wall<p class="workInfo">Node/IoT</p></h6>
+        <div id="image-subtitle">
+            <div class="thumbnail">
+                <img class="mountains" src="./assets/images/mountains.jpg" />
+                <div class="subtitle">
+                    <h2>Lets Get Coding!</h2>
                 </div>
-            </article>
-            <article id="contactMe" class="contactMe">
-                <h5>Contact Me</h5>
-                <div class="divider"></div>
-                <nav class="contactResources">
-                    <ul>
-                        <li>(614)-313-9008</li>
-                        <li><a href= mailto: kberry542@gmail.com>kberry542@gmail.com</a></li>
-                        <li><a href= https://github.com/KGBerry542>GitHub</a></li>
-                        <li>Social Media</li>
-                    </ul>
-                </nav>        
-            </article>
-        </section>    
-    </main>
+            </div>
+        </div>
 
+        <main>
+            <section>
+                <article id="about-me" class="about-me">
+                    <h3>About Me</h3>
+                    <div class="divider"></div>
+                    <p class="bio">Hello there, my name is Kelbey Berry. I am currently a student at The Ohio State
+                        University Boot Camp. I am attending this boot camp to specialize in full stack web development.
+                    </p>
+                </article>
+                <article id="work" class="work">
+                    <h4>Work</h4>
+                    <div class="divider"></div>
+                    <div class="container">
+                        <img id="work-img" class="surf-img" src="./assets/images/surfReport.jpg" 
+                            style="width: 94.3%; height: auto; object-fit: cover;"/>
+                        <img id="work-img" class="led-img" src="./assets/images/ledWall.jpg"
+                            style="width: 46%; height: 12rem; object-fit: cover;" />
+                        <img id="work-img" class="js-img" src="./assets/images/calculator.jpg"
+                            style="width: 46%; height: 12rem; object-fit: cover;" />
+                        <img id="work-img" class="pastel-img" src="./assets/images/pastelPuzzles.jpg"
+                            style="width: 46%; height: 12rem; object-fit: cover;" />
+                        <a href="https://kgberry542.github.io/01-Semantic-Challenge/"><img id="work-img" class="run-img"
+                                src="./assets/images/runBuddy.png"
+                                style="width: 46%; height: 12rem; object-fit: cover;" /></a>
+                        <h6 class="run-subtitle">Run Buddy<p class="work-info">HTML/CSS</p>
+                        </h6>
+                        <h6 class="surf-subtitle">Surf Report<p class="work-info">MERN Stack</p>
+                        </h6>
+                        <h6 class="pastel-subtitle">Pastel Puzzles<p class="work-info">MERN Stack</p>
+                        </h6>
+                        <h6 class="js-subtitle">Calculator<p class="work-info">React/JavaScript/CSS</p>
+                        </h6>
+                        <h6 class="led-subtitle">LED Wall<p class="work-info">Node/IoT</p>
+                        </h6>
+                    </div>
+                </article>
+                <article id="contact-me" class="contact-me">
+                    <h5>Contact Me</h5>
+                    <div class="divider"></div>
+                    <nav class="contact-resources">
+                        <ul>
+                            <li>(614)-313-9008</li>
+                            <li><a href=mailto: kberry542@gmail.com>kberry542@gmail.com</a></li>
+                            <li><a href=https://github.com/KGBerry542>GitHub</a></li>
+                            <li>Social Media</li>
+                        </ul>
+                    </nav>
+                </article>
+            </section>
+        </main>
+    </div>
 </body>
-
