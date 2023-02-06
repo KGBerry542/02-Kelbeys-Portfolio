@@ -34,29 +34,28 @@ h1 {
   padding-left: 5rem;
 }
 
-h4,
+h3 {
+  display: inline-block;
+  font-size: 3rem;
+  padding-right: 2rem;
+  width: 10%;
+  text-align: right;
+}
+
+
+/* h4,
 h5 {
   font-size: 100%;
   color: rgb(58, 58, 78);
-}
+} */
 
-.me {
-  display: inline;
-  max-width: 20%;
-  border-radius: 50%;
-}
 
-.bio {
-  display: inline;
-  width: 5rem;
-  word-wrap: break-word;
-}
 
-h4 {
+/* h4 {
   margin: 5rem;
   padding: 5rem;
   margin-left: 5rem;
-}
+} */
 
 h6 {
   max-width: fit-content;
@@ -157,8 +156,27 @@ h6 {
   /* justify-content: space-evenly; */
 }
 
-.about-me h3 {
-  font-size: 3rem;
+.autobio {
+  display: flex;
+}
+
+.about-me-container {
+  display: flex;
+}
+
+.about-me img {
+  display: inline-block;
+  width: 28%;
+  border-radius: 50%;
+  padding-left: 2rem;
+}
+
+.bio {
+  display: inline-block;
+  /* width: 70%; */
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  /* word-wrap: break-word; */
 }
 
 /* #endregion ABOUT ME */
@@ -232,6 +250,11 @@ h6 {
   width: 1rem;
   background: rgb(58, 58, 78);
 }
+
+/* #about-me .about-me-container .divider {
+  width: 1rem;
+  background: rgb(58, 58, 78);
+} */
 
 /* .divider-work {
   width: 1rem;
