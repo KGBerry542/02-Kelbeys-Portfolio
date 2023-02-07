@@ -43,6 +43,8 @@ h3 {
 }
 
 
+
+
 /* h4,
 h5 {
   font-size: 100%;
@@ -281,7 +283,7 @@ h6 {
 }
 
 .contact-me-title {
-  width: 15%;
+  width: 14.5%;
   padding-bottom: 1.5rem;
 }
 
@@ -300,6 +302,10 @@ h6 {
   padding-left: 4rem;
   font-size: 1.5rem;
   color: rgb(58, 58, 78);
+}
+
+.contact-resources {
+  margin: 2.5rem;
 }
 
 .contact-resources-container {
@@ -551,8 +557,8 @@ h6 {
 @media screen and (max-width: 1732px) {
   .surf-subtitle {
     position: absolute;
-    top: 135%;
-    left: 19.7%;
+    top: 132%;
+    left: 20%;
     transform: translate(-25%, -50%);
     text-align: center;
     background-color: rgb(160, 252, 252);
@@ -565,8 +571,8 @@ h6 {
 
   .led-subtitle {
     position: absolute;
-    top: 163%;
-    left: 18.75%;
+    top: 159%;
+    left: 19.1%;
     transform: translate(-25%, -50%);
     text-align: center;
     background-color: rgb(160, 252, 252);
@@ -579,8 +585,8 @@ h6 {
 
   .js-subtitle {
     position: absolute;
-    top: 163%;
-    right: 28.8%;
+    top: 159%;
+    right: 28.1%;
     transform: translate(-25%, -50%);
     text-align: center;
     background-color: rgb(160, 252, 252);
@@ -593,8 +599,8 @@ h6 {
 
   .pastel-subtitle {
     position: absolute;
-    top: 183%;
-    left: 20.2%;
+    top: 179%;
+    left: 20.6%;
     transform: translate(-25%, -50%);
     text-align: center;
     background-color: rgb(160, 252, 252);
@@ -607,8 +613,8 @@ h6 {
 
   .run-subtitle {
     position: absolute;
-    top: 183%;
-    right: 28%;
+    top: 179%;
+    right: 27.2%;
     transform: translate(-25%, -50%);
     text-align: center;
     background-color: rgb(160, 252, 252);
@@ -620,7 +626,162 @@ h6 {
   }
 }
 
+@media screen and (max-width: 1680px) {
+  .surf-subtitle {
+    position: absolute;
+    top: 128%;
+    left: 20.3%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+
+  .led-subtitle {
+    position: absolute;
+    top: 154%;
+    left: 19.3%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+
+  .js-subtitle {
+    position: absolute;
+    top: 154%;
+    right: 27.4%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+
+  .pastel-subtitle {
+    position: absolute;
+    top: 175%;
+    left: 20.8%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.75rem;
+    width: 20%;
+  }
+
+  .run-subtitle {
+    position: absolute;
+    top: 175%;
+    right: 26.6%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1618px) {
+  .surf-subtitle {
+    position: absolute;
+    top: 125%;
+    left: 20.7%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+
+  .led-subtitle {
+    position: absolute;
+    top: 150%;
+    left: 19.7%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+
+  .js-subtitle {
+    position: absolute;
+    top: 150%;
+    right: 26.8%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+
+  .pastel-subtitle {
+    position: absolute;
+    top: 171%;
+    left: 21.2%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.75rem;
+    width: 20%;
+  }
+
+  .run-subtitle {
+    position: absolute;
+    top: 171%;
+    right: 25.7%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+}
+
+
+
+
+
 @media screen and (max-width: 1530px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  .about-me-container {
+    padding-left: 2.2rem;
+  }
   .subtitle {
     position: absolute;
     top: 60%;
@@ -633,10 +794,92 @@ h6 {
     font-weight: bold;
     font-size: 2rem;
   }
+
+  .surf-subtitle {
+    position: absolute;
+    top: 120%;
+    left: 20.6%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 20%;
+  }
+
+  .led-subtitle {
+    position: absolute;
+    top: 145%;
+    left: 19.7%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 20%;
+  }
+
+  .js-subtitle {
+    position: absolute;
+    top: 145%;
+    right: 28.6%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 20%;
+  }
+
+  .pastel-subtitle {
+    position: absolute;
+    top: 165%;
+    left: 21.5%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 20%;
+  }
+
+  .run-subtitle {
+    position: absolute;
+    top: 165%;
+    right: 27.8%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 20%;
+  }
+
+  .contact-container {
+    padding-right: 8.5rem;
+  }
+
+
 }
 
-
 @media screen and (max-width: 1530px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  .about-me-container {
+    padding-left: 2.2rem;
+  }
   .subtitle {
     position: absolute;
     top: 60%;
@@ -649,9 +892,197 @@ h6 {
     font-weight: bold;
     font-size: 2rem;
   }
+
+  .surf-subtitle {
+    position: absolute;
+    top: 115.5%;
+    left: 21%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 20%;
+  }
+
+  .led-subtitle {
+    position: absolute;
+    top: 140%;
+    left: 20.1%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 20%;
+  }
+
+  .js-subtitle {
+    position: absolute;
+    top: 140%;
+    right: 26.5%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 20%;
+  }
+
+  .pastel-subtitle {
+    position: absolute;
+    top: 160%;
+    left: 22%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 20%;
+  }
+
+  .run-subtitle {
+    position: absolute;
+    top: 160%;
+    right: 26.9%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 20%;
+  }
+
+  .contact-container {
+    padding-right: 8.5rem;
+  }
+
+
 }
 
 
+/* @media screen and (max-width: 1530px) {
+  .subtitle {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+} */
+
+@media screen and (max-width: 1400) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  .about-me-container {
+    padding-left: 2.2rem;
+  }
+  .subtitle {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .surf-subtitle {
+    position: absolute;
+    top: 115.5%;
+    left: 21%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 20%;
+  }
+
+  .led-subtitle {
+    position: absolute;
+    top: 136%;
+    left: 20.1%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 20%;
+  }
+
+  .js-subtitle {
+    position: absolute;
+    top: 136%;
+    right: 26.7%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 20%;
+  }
+
+  .pastel-subtitle {
+    position: absolute;
+    top: 160%;
+    left: 22%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 20%;
+  }
+
+  .run-subtitle {
+    position: absolute;
+    top: 160%;
+    right: 26.9%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 20%;
+  }
+
+  .contact-container {
+    padding-right: 8.5rem;
+  }
+
+
+}
 
 @media screen and (max-width: 1126px) {
   .subtitle {
