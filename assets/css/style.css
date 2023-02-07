@@ -872,7 +872,7 @@ h6 {
 
 }
 
-@media screen and (max-width: 1530px) {
+@media screen and (max-width: 1468px) {
   h3 {
     font-size: 2rem;
   }
@@ -1009,7 +1009,7 @@ h6 {
 
   .surf-subtitle {
     position: absolute;
-    top: 115.5%;
+    top: 115%;
     left: 21%;
     transform: translate(-25%, -50%);
     text-align: center;
@@ -1059,7 +1059,7 @@ h6 {
     color: rgb(58, 58, 78);
     padding: .25rem;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1rem;
     width: 20%;
   }
 
@@ -1116,6 +1116,100 @@ h6 {
 
   .header-links {
     font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .about-me-container {
+    padding-left: 2.2rem;
+  }
+  .subtitle {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .surf-subtitle {
+    position: absolute;
+    top: 75%;
+    left: 24.1%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 20%;
+  }
+
+  .led-subtitle {
+    position: absolute;
+    top: 91%;
+    left: 23.5%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 20%;
+  }
+
+  .js-subtitle {
+    position: absolute;
+    top: 91%;
+    right: 18.5%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 20%;
+  }
+
+  .pastel-subtitle {
+    position: absolute;
+    top: 108%;
+    left: 23.9%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 20%;
+  }
+
+  .run-subtitle {
+    position: absolute;
+    top: 108%;
+    right: 26.7%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 20%;
+  }
+
+  .contact-container {
+    padding-right: 8.5rem;
   }
 
 
