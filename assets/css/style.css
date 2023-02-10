@@ -330,11 +330,85 @@ h6 {
 
 /* .divider-work {
   width: 1rem;
+  and (max-width: 1920px)
   background: rgb(58, 58, 78);
 } */
 
 .led-img:hover {
   background-image: "./assets./images/ledWall2.jpg";
+}
+
+@media screen and (max-width: 1920px) {
+  .surf-subtitle {
+    position: absolute;
+    top: 145%;
+    left: 18.9%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+
+  .led-subtitle {
+    position: absolute;
+    top: 172%;
+    left: 18%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+
+  .js-subtitle {
+    position: absolute;
+    top: 172%;
+    right: 30.2%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+
+  .pastel-subtitle {
+    position: absolute;
+    top: 193%;
+    left: 19.5%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+
+  .run-subtitle {
+    position: absolute;
+    top: 193%;
+    right: 29.5%;
+    transform: translate(-25%, -50%);
+    text-align: center;
+    background-color: rgb(160, 252, 252);
+    color: rgb(58, 58, 78);
+    padding: .25rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 20%;
+  }
+
 }
 
 @media screen and (max-width: 1874px) {
@@ -1462,7 +1536,9 @@ h6 {
 }
 
 @media screen and (max-width: 965px) {
-  h3 { font-size: 5px;}
-  
-  
+  h3 {
+    font-size: 5px;
+  }
+
+
 }

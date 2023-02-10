@@ -5,3 +5,7 @@ You can use the navagtion links in the top right to help navigate to certain sec
 You can access my first homework assignment I had at the OSU boot camp. 
 To access that assignment, you have to click on the Run Buddy image, and from there it will redirect you to my first assignment.
 I wanted to make the portfolio responsive all the way down to 412px max-width but unfortunately for some reason I can't get media queries to work past 1138px. But I will be continuing to improve the code on my portfolio and improve it overall.
+Heres a link for the deployed application: 
+https://kgberry542.github.io/02-Kelbeys-Portfolio/
+Heres a screenshot of the deployed application:
+<img src="./assets/images/screenshot.phg"> 
