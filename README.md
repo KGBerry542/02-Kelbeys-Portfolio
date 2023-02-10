@@ -8,4 +8,4 @@ I wanted to make the portfolio responsive all the way down to 412px max-width bu
 Heres a link for the deployed application: 
 https://kgberry542.github.io/02-Kelbeys-Portfolio/
 Heres a screenshot of the deployed application:
-<img src="./assets/images/screenshot.phg"> 
+<img src="./assets/images/screenshot.png"> 
